@@ -1,3 +1,4 @@
+import SplashPage from "@components/splashPage"
 import Nav from "@components/nav"
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <>
       <div className='w-full h-full'>
         <Nav />
+        <SplashPage />
       </div>
      
     </>
