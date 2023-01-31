@@ -4,7 +4,7 @@ export default function Nav() {
 
     return (
         <>
-            <div className="w-full h-24 py-8 lg:border lg:flex items-center">
+            <div className="w-full absolute nav h-24 py-8 lg:border lg:flex items-center">
                 <div className="w-1/3"></div> {/* left box, padding only, no content */}
                 <div className="lg:w-1/3 flex items-center justify-center"> {/* center box with logo text*/}
                     <h1 className="tenorSans text-6xl text-center lg:py-0 py-2">Studyflow</h1>

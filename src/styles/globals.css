@@ -34,3 +34,10 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+.sp {
+    z-index: 1;
+}
+.nav {
+    z-index: 2;
+}
