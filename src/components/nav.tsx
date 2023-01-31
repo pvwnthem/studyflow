@@ -10,12 +10,10 @@ export default function Nav() {
                     <h1 className="tenorSans text-6xl text-center">Studyflow</h1>
                 </div>
                 <div className="w-1/3 flex items-center justify-around"> {/* right box with links */}
-                    <NavText>
-                        Home
-                    </NavText>
-                    <span className="tenorSans text-xl">home</span>
-                    <span className="tenorSans text-xl">home</span>
-
+                    <NavText>home</NavText>
+                    <NavText>home</NavText>
+                    <NavText>home</NavText>
+                    <NavText>Get Started</NavText>
                 </div>
             </div>
         </>
