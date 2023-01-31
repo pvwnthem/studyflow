@@ -1,3 +1,4 @@
+import NavText from "@components/wrappers/NavText"
 
 export default function Nav() {
 
@@ -8,7 +9,14 @@ export default function Nav() {
                 <div className="w-1/3 flex items-center justify-center"> {/* center box with logo text*/}
                     <h1 className="tenorSans text-6xl text-center">Studyflow</h1>
                 </div>
-                <div className="w-1/3 bg-blue-400"></div>
+                <div className="w-1/3 flex items-center justify-around"> {/* right box with links */}
+                    <NavText>
+                        Home
+                    </NavText>
+                    <span className="tenorSans text-xl">home</span>
+                    <span className="tenorSans text-xl">home</span>
+
+                </div>
             </div>
         </>
     )
