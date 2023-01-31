@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'TenorSans';
+    src: url('../fonts/TenorSans-Regular.ttf')  format('truetype');
+}
+
+.tenorSans {
+    font-family: 'TenorSans';
+}
