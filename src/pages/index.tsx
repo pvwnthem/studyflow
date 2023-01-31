@@ -14,7 +14,6 @@ export default function Home() {
         <Info />
         
       </div>
-      <a href="https://www.flaticon.com/free-icons/mortarboard" title="mortarboard icons" className="mx-auto">Mortarboard icons created by mavadee - Flaticon</a>
 
 
 
