@@ -20,7 +20,14 @@ export default function SplashPage() {
                 
                 
                 
+        
+                
             </div>
+        
+
+            
+
+
             
         </>
     )

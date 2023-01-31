@@ -9,6 +9,7 @@ class Info extends React.Component {
     render() {
         return (
             <>
+                <div className="w-full h-full bg-blue-200 ">e</div>
             </>
       
         );
