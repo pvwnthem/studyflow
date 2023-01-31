@@ -4,12 +4,12 @@ export default function Nav() {
 
     return (
         <>
-            <div className="w-full h-24 border flex">
+            <div className="w-full h-24 py-8 md:border md:flex items-center">
                 <div className="w-1/3"></div> {/* left box, padding only, no content */}
-                <div className="w-1/3 flex items-center justify-center"> {/* center box with logo text*/}
-                    <h1 className="tenorSans text-6xl text-center">Studyflow</h1>
+                <div className="md:w-1/3 flex items-center justify-center"> {/* center box with logo text*/}
+                    <h1 className="tenorSans text-6xl text-center md:py-0 py-2">Studyflow</h1>
                 </div>
-                <div className="w-1/3 flex items-center justify-around"> {/* right box with links */}
+                <div className="md:w-1/3 md:py-0 py-4 flex items-center justify-around md:border-b-0 border-l-0 border-r-0 border border-b-1 border-t-0"> {/* right box with links */}
                     <NavText to="/home">Home</NavText>
                     <NavText to="/solutions">Solutions</NavText>
                     <NavText to="/about">About</NavText>
