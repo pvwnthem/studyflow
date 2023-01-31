@@ -13,7 +13,7 @@ export default function Nav() {
                     <NavText to="/home">Home</NavText>
                     <NavText to="/solutions">Solutions</NavText>
                     <NavText to="/about">About</NavText>
-                    <NavText to="/">Get Started</NavText>
+                    <NavText to="/api/auth/signin">Get Started</NavText>
                 </div>
             </div>
         </>
