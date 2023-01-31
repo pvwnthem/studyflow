@@ -5,7 +5,6 @@ export default function Home() {
     <>
       <div className='w-full h-full'>
         <Nav />
-        <p className="tenorSans">style</p>
       </div>
      
     </>

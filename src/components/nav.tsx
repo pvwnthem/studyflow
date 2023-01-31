@@ -6,7 +6,7 @@ export default function Nav() {
             <div className="w-full h-24 border flex">
                 <div className="w-1/3 bg-blue-200"></div>
                 <div className="w-1/3">
-                    <p >Studyflow</p>
+                    <p className="tenorSans">Studyflow</p>
                 </div>
                 <div className="w-1/3 bg-blue-400"></div>
             </div>
