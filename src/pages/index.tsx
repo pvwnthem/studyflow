@@ -1,4 +1,4 @@
-import tenorSans from "@/fonts/tenorSans"
+import tenorSans from "@fonts/tenorSans"
 
 export default function Home() {
   return (
